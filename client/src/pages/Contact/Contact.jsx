@@ -1,8 +1,11 @@
+import HeroOverlay from "../../Components/shared/HeroOverlay/HeroOverlay"
 
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <HeroOverlay/>
+    </>
   )
 }
 

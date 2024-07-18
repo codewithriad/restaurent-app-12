@@ -1,10 +1,10 @@
+import HeroOverlay from "../../Components/shared/HeroOverlay/HeroOverlay";
 
-import Hero from '../../Components/shared/Hero/Hero'
 
 const OurMenu = () => {
   return (
-    <div>
-        <Hero/>
+    <div className={`bg-menu-image bg-cover bg-center lg:h-[80vh] flex items-center justify-center`}>
+        <HeroOverlay bgImage={"menu-image"} heading={"OUR MENU"} subHeading={"would you like to try a dish"}/>
     </div>
   )
 }

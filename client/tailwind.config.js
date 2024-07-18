@@ -9,7 +9,8 @@ export default {
      
       backgroundImage: {
         'featured-image': "url('/src/assets/home/featured.jpg')",
-        'menu-hero': "url('/src/assets/menu/banner3.jpg')"
+        'menu-image': "url('/menu/banner3.jpg')",
+        'shop-image': "url('/shop/banner2.jpg')"
       }
     },
   },

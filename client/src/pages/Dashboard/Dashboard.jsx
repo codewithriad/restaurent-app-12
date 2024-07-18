@@ -1,8 +1,12 @@
 
+import HeroOverlay from "../../Components/shared/HeroOverlay/HeroOverlay"
+
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+      <HeroOverlay/>
+    </div>
   )
 }
 
